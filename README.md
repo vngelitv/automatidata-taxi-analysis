@@ -29,6 +29,12 @@ The sample contains 22,699 taxi trip records and 18 variables, including:
 - Data filtering
 - Grouping and aggregation
 - Outlier identification
+- NumPy
+- Matplotlib
+- Seaborn
+- Tableau Public
+- Data visualization
+- Datetime feature engineering
 
 ## Key Findings
 
@@ -38,10 +44,6 @@ The sample contains 22,699 taxi trip records and 18 variables, including:
 - The two vendors had nearly identical average total trip amounts.
 - Some total amounts were negative or unusually high and should be investigated before predictive modeling.
 - Trip distance and total amount appear related, although tolls, tips, taxes, and surcharges also affect the final cost.
-
-## Project File
-
-- `automatidata_taxi_analysis.ipynb` — completed Jupyter Notebook
 
 ## Note
 
