@@ -46,3 +46,39 @@ The sample contains 22,699 taxi trip records and 18 variables, including:
 ## Note
 
 This is an educational project based on course materials from the Google Advanced Data Analytics Professional Certificate.
+
+## Project Progression
+
+### Course 1: Data Inspection and Organization
+
+- Imported the NYC taxi dataset into pandas
+- Reviewed column data types and missing values
+- Calculated descriptive statistics
+- Investigated payment types, vendors, fares, and tips
+- Identified unusual and potentially invalid values
+
+### Course 2: Exploratory Data Analysis and Visualization
+
+- Converted pickup and drop-off columns to datetime
+- Examined outliers in trip distance, total amount, and tip amount
+- Analyzed taxi demand by month and day of the week
+- Compared revenue by month and weekday
+- Evaluated average tips by passenger count and vendor
+- Examined mean trip distance by drop-off location
+- Created a Tableau scatterplot of trip distance and total amount
+
+## Key Course 2 Findings
+
+- Most taxi trips were short, while a smaller number were unusually long.
+- Trip distance, total fare, and tip amount were strongly right-skewed.
+- Total amount included negative values and an extreme value above $1,200.
+- March had the highest number of sampled rides.
+- Thursday generated the highest total revenue in the sample.
+- Trip distance was positively associated with total fare.
+- Some trips had zero recorded distance but positive fares and should be investigated before modeling.
+
+## Project Files
+
+- `automatidata_taxi_analysis.ipynb` — Course 1 inspection notebook
+- `course-2-eda/automatidata_course2_eda.ipynb` — Course 2 EDA notebook
+- `course-2-eda/tableau_scatterplot.png` — Tableau visualization
