@@ -79,8 +79,26 @@ This is an educational project based on course materials from the Google Advance
 - Trip distance was positively associated with total fare.
 - Some trips had zero recorded distance but positive fares and should be investigated before modeling.
 
+### Course 3: Statistical Analysis and A/B Testing
+
+- Compared average taxi fare amounts by payment type
+- Used descriptive statistics to examine credit card and cash payments
+- Formulated null and alternative hypotheses
+- Conducted a two sample t-test
+- Used a 5% significance level
+- Found a statistically significant difference in average fare amounts
+- Interpreted results in the context of revenue and experimental assumptions
+
+## Key Course 3 Finding
+
+Credit card customers had a higher average fare amount than cash customers, and the difference was statistically significant (`p ≈ 6.80 × 10⁻¹²`).
+
+Because this educational exercise assumes random assignment of payment type, the result can be interpreted causally within the scenario. In real-world taxi data, customers choose their payment method, so other factors could also explain the difference.
+
 ## Project Files
 
 - `automatidata_taxi_analysis.ipynb` — Course 1 inspection notebook
 - `course-2-eda/automatidata_course2_eda.ipynb` — Course 2 EDA notebook
 - `course-2-eda/tableau_scatterplot.png` — Tableau visualization
+- `course-3-statistics/automatidata_course3_statistics.ipynb` — statistical analysis and hypothesis testing notebook
+- `course-3-statistics/README.md` — Course 3 project summary
