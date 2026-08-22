@@ -117,6 +117,27 @@ The model achieved an R² of approximately `0.84` on the training data, meaning 
 
 Residual analysis and coefficient interpretation were used to evaluate model performance and understand the influence of each predictor.
 
+### Course 5: Machine Learning
+
+- Evaluated ethical considerations surrounding predictive modeling
+- Reframed the business objective to predict generous tippers
+- Engineered the `tip_percent` and `generous` target variables
+- Created day, month, and time-of-day features
+- Prepared categorical variables through dummy encoding
+- Built and tuned Random Forest and XGBoost classification models
+- Used GridSearchCV and cross-validation for hyperparameter tuning
+- Evaluated models using precision, recall, F1 score, and accuracy
+- Compared model performance on held-out test data
+- Selected Random Forest as the champion model
+- Analyzed confusion-matrix errors and feature importance
+
+## Key Course 5 Findings
+
+The target variable was nearly balanced, with approximately 52.6% of customers classified as generous tippers.
+
+Random Forest achieved the strongest test performance, with an F1 score of approximately `0.723`, compared with approximately `0.710` for XGBoost.
+
+The Random Forest model was selected as the champion model. False positives were more common than false negatives, meaning the model more often predicted a generous tip when the actual tip was below the 20% threshold.
 
 ## Project Files
 
@@ -127,3 +148,5 @@ Residual analysis and coefficient interpretation were used to evaluate model per
 - `course-3-statistics/README.md` — Course 3 project summary
 - `course-4-regression/automatidata_course4_regression.ipynb` — multiple linear regression notebook
 - `course-4-regression/README.md` — Course 4 project summary
+- `course-5-machine-learning/automatidata_course5_machine_learning.ipynb` — Random Forest and XGBoost classification notebook
+- `course-5-machine-learning/README.md` — Course 5 project summary
