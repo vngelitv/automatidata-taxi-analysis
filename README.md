@@ -95,6 +95,29 @@ Credit card customers had a higher average fare amount than cash customers, and 
 
 Because this educational exercise assumes random assignment of payment type, the result can be interpreted causally within the scenario. In real-world taxi data, customers choose their payment method, so other factors could also explain the difference.
 
+### Course 4: Multiple Linear Regression
+
+- Performed additional EDA and prepared data for regression modeling
+- Converted datetime variables and created trip-duration features
+- Identified and handled outliers in trip distance, fare amount, and duration
+- Engineered mean distance and mean duration features
+- Created rush-hour and time-based variables
+- Examined correlations between predictors and fare amount
+- Built a multiple linear regression model
+- Split data into training and testing sets
+- Standardized predictor variables
+- Evaluated model performance using R², MAE, MSE, and RMSE
+- Analyzed residuals and regression coefficients
+
+## Key Course 4 Findings
+
+Mean trip distance and mean trip duration were among the strongest predictors of taxi fare amount.
+
+The model achieved an R² of approximately `0.84` on the training data, meaning it explained about 84% of the variation in fare amount.
+
+Residual analysis and coefficient interpretation were used to evaluate model performance and understand the influence of each predictor.
+
+
 ## Project Files
 
 - `automatidata_taxi_analysis.ipynb` — Course 1 inspection notebook
@@ -102,3 +125,5 @@ Because this educational exercise assumes random assignment of payment type, the
 - `course-2-eda/tableau_scatterplot.png` — Tableau visualization
 - `course-3-statistics/automatidata_course3_statistics.ipynb` — statistical analysis and hypothesis testing notebook
 - `course-3-statistics/README.md` — Course 3 project summary
+- `course-4-regression/automatidata_course4_regression.ipynb` — multiple linear regression notebook
+- `course-4-regression/README.md` — Course 4 project summary
